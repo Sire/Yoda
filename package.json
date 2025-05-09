@@ -1,0 +1,21 @@
+{
+  "name": "yoda-theme",
+  "displayName": "Yoda Theme",
+  "description": "A dark VS Code theme that balances beauty with usability. Thoughtfully designed to highlight what matters most using vibrant, saturated colors, while subtly dimming elements the less critical they are —creating a focused, visually pleasing coding experience that even Master Yoda would approve of.",
+  "version": "0.9.0",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Yoda Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yoda-theme.json"
+      }
+    ]
+  }
+}
