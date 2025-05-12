@@ -1,9 +1,6 @@
-# Change Log
 
-All notable changes to the Yoda Theme extension will be documented in this file.
+# Changelog - Yoda Theme for Visual Studio Code 
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## 1.0.0 (2025-05-12)
 
-## [Unreleased]
-
-- Initial release
+Initial release

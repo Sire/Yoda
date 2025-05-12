@@ -10,14 +10,14 @@ body {
 	margin-top: 0px;			/* yet another comment */
 	margin-bottom: 0px;
 	// this is no comment, it's just broken!
-	background-color: hsl(0, 0%, calc(95% - 3%));
-    font-family: "Droid Sans", Arial, sans-serif;
-    font-size: 11pt;
-    line-height: 1.5em;
-    background: #fff000;
-    text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
-    box-sizing: border-box;
-	font-variant-alternates: styleset(nice-style);
+  background-color: hsl(0, 0%, calc(95% - 3%));
+  font-family: "Droid Sans", Arial, sans-serif;
+  font-size: 11pt;
+  line-height: 1.5em;
+  background: #fff000;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  font-variant-alternates: styleset(nice-style);
 }
 
 /* Selectors */

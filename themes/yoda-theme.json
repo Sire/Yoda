@@ -1939,6 +1939,14 @@
 
   ],
   "colors": {
+
+		"editor.background": "#222",
+		"editor.foreground": "#a8a8a8",
+		"activityBarBadge.background": "#fb2ea4",
+		"sideBarTitle.foreground": "#bbbbbb",
+
+    "Below is VSCode default": "",
+
     "foreground": "#cccccc",
     "focusBorder": "#007fd4",
     "selection.background": "#256aa7",
@@ -1947,13 +1955,11 @@
     "activityBar.background": "#333333",
     "activityBar.inactiveForeground": "#ffffff66",
     "activityBarBadge.foreground": "#ffffff",
-    "activityBarBadge.background": "#007acc",
     "sideBar.background": "#252526",
     "sideBar.foreground": "#cccccc",
     "sideBarSectionHeader.background": "#00000000",
     "sideBarSectionHeader.foreground": "#cccccc",
     "sideBarSectionHeader.border": "#cccccc33",
-    "sideBarTitle.foreground": "#bbbbbb",
     "list.inactiveSelectionBackground": "#37373d",
     "list.inactiveSelectionForeground": "#cccccc",
     "list.hoverBackground": "#2a2d2e",
@@ -2005,8 +2011,6 @@
     "inputOption.activeForeground": "#ffffff",
     "input.placeholderForeground": "#a6a6a6",
     "textLink.foreground": "#3794ff",
-    "editor.background": "#1e1e1e",
-    "editor.foreground": "#a8a8a8",
     "editorLineNumber.foreground": "#858585",
     "editorCursor.foreground": "#aeafad",
     "editorCursor.background": "#000000",
