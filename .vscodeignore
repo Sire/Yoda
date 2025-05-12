@@ -2,3 +2,9 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+images/large.png
+
+# used for reference
+themes/Monokai Pro-color-theme.json 
+
+test-files/**

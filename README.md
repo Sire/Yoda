@@ -1,26 +1,19 @@
 # Yoda Theme for VS Code
 
+![Yoda Theme C# Example](https://raw.githubusercontent.com/Sire/Yoda/main/images/Yoda-Theme-Example.png)
+
 A dark VS Code theme that balances beauty with usability.
 
 Carefully crafted to highlight what truly matters using vibrant, saturated colors, while gently dimming less important elements — bringing order to your code, and peace to your eyes. 
 
-<div align="center">
-    <img src="images/Yoda-Theme-VSCode-Sire.png" alt="Approved Yoda, it is" style="max-height: 400px; height: 100%;">
-    <a href="images/Yoda-Theme-Example-CSharp.png" target="_blank" style="cursor: pointer;">
-        <img src="images/Yoda-Theme-Example-CSharp.png" alt="Yoda Theme C# Example" style="max-height: 400px; height: 100%;">
-    </a>
-</div>
-
-
+![Yoda THeme](https://raw.githubusercontent.com/Sire/Yoda/main/images/Yoda-Theme.png)
 
 *Approved by Yoda, it is.*
-
 
 ## Installation
 
 - In VSCode, go to Extensions / Search for "Yoda Theme" / Install
-- Or search for "Yoda Theme" on the [VSCode Marketplace](https://marketplace.visualstudio.com/search?term=Yoda%20Theme&target=VSCode&category=Themes&sortBy=Relevance)
-
+- Install from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=yoda.yoda-theme)
 
 ## Troubleshooting
 

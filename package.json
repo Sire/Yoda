@@ -1,10 +1,20 @@
 {
+  "publisher": "yoda",
   "name": "yoda-theme",
   "displayName": "Yoda Theme",
-  "description": "A dark VS Code theme that balances beauty with usability. Carefully crafted to highlight what truly matters using vibrant, saturated colors, while gently dimming less important elements — bringing order to your code, and peace to your eyes.",
-  "icon": "./images/Yoda-Theme-VSCode-Sire.png",
+  "description": "A dark VS Code theme that balances beauty with usability. Carefully crafted to highlight what truly matters using vibrant, saturated colors, while gently dimming less important elements — bringing order to your code, and peace to your eyes. Approved by Yoda, it is.",
+  "keywords": [
+    "theme",
+    "dark",
+    "color",
+    "vibrant",
+    "saturated",
+    "beautiful",
+    "minimalist"
+  ],
+  "icon": "./images/Yoda-Theme.png",
   "galleryBanner": {
-    "color": "#fb2ea4",
+    "color": "#270016",
     "theme": "dark"
   },
   "homepage": "https://github.com/Sire/Yoda",
@@ -16,7 +26,7 @@
     "type": "git",
     "url": "https://github.com/Sire/Yoda.git"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.100.0"
   },
