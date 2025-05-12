@@ -8,3 +8,5 @@ images/large.png
 themes/Monokai Pro-color-theme.json 
 
 test-files/**
+
+publish.ps1
