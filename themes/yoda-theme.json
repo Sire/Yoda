@@ -1,18 +1,7 @@
 {
   "name": "Yoda",
   "type": "dark",
-  "semanticHighlighting": true,
-  "semanticTokenColors": {
-    "enumMember": {
-      "foreground": "#099481"
-    },
-    "variable.constant": {
-      "foreground": "#ff6ec6"
-    },
-    "variable.defaultLibrary": {
-      "foreground": "#34d1bb"
-    }
-  },
+  "semanticHighlighting": false,
   "tokenColors": [
     {
       "name": "unison punctuation",
@@ -109,7 +98,7 @@
       "name": "punctuation.definition",
       "scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
       "settings": {
-        "foreground": "#fb2ea4"
+        "foreground": "#a8a8a8"
       }
     },
     {
@@ -336,7 +325,7 @@
       "name": "js variable readwrite",
       "scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
       "settings": {
-        "foreground": "#d0d591"
+        "foreground": "#eee"
       }
     },
     {
@@ -729,7 +718,7 @@
       "name": "Meta tag",
       "scope": "meta.tag",
       "settings": {
-        "foreground": "#a8a8a8"
+        "foreground": "#eee"
       }
     },
     {
@@ -782,12 +771,31 @@
       }
     },
     {
-      "name": "Attributes",
+      "name": "Attributes (where?)",
       "scope": "entity.other.attribute-name",
       "settings": {
         "foreground": "#ff6ec6"
       }
     },
+    {
+      "name": "Attributes HTML (Sire)",
+      "scope": "entity.other.attribute-name.html",
+      "settings": {
+        "foreground": "#91c763"
+      }
+    },
+    {
+      "name": "Invalid HTML (Sire)",
+      "scope": "invalid.deprecated.entity.other.attribute-name.html",
+      "settings": {
+        "foreground": "#ff0000"
+      }
+    },
+
+
+    
+
+
     {
       "name": "Attribute IDs",
       "scope": "entity.other.attribute-name.id",
@@ -1283,9 +1291,36 @@
       "name": "cs local variable",
       "scope": "entity.name.variable.local.cs",
       "settings": {
-        "foreground": "#d0d591"
+        "foreground": "#eee"
       }
     },
+
+    
+
+    {
+      "name": "cs variable parameter",
+      "scope": "entity.name.variable.parameter.cs",
+      "settings": {
+        "foreground": "#eee"
+      }
+    },
+    {
+      "name": "cs variable other object (static class names)",
+      "scope": "variable.other.object.cs",
+      "settings": {
+        "foreground": "#34d1bb"
+      }
+    },
+
+    {
+      "name": "cs variable property",
+      "scope": "entity.name.variable.property.cs",
+      "settings": {
+        "foreground": "#eb74bd"
+      }
+    },
+
+
     {
       "scope": "token.info-token",
       "settings": {
@@ -1787,12 +1822,13 @@
     },
     {
       "name": "Comments",
-      "scope": "comment, punctuation.definition.comment",
+      "scope": "comment, punctuation.definition.comment, comment.block.documentation",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#558247"
       }
     },
+
     {
       "name": "[VSCODE-CUSTOM] Markdown Quote",
       "scope": "markup.quote.markdown",
@@ -1842,7 +1878,65 @@
       "settings": {
         "fontStyle": "italic"
       }
+    },
+
+
+
+    {
+      "name": "Tags like <summary> in Comments (Sire)",
+      "scope": "entity.name.tag.localname,punctuation.definition.tag",
+      "settings": {
+        "foreground": "#a8a8a8"
+      }
+    },
+
+    {
+      "name": "HTML text (Sire)",
+      "scope": "text.html.derivative",
+      "settings": {
+        "foreground": "#eee"
+      }
+    },
+    {
+      "name": "HTML string attributes (Sire)",
+      "scope": "meta.attribute.class.html,string.quoted.double.html",
+      "settings": {
+        "foreground": "#999",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Namespaces in usings only? (Sire)",
+      "scope": "entity.name.type.namespace",
+      "settings": {
+        "foreground": "#999"
+      }
+    },
+    {
+      "name": "Region name (Sire)",
+      "scope": "string.unquoted.preprocessor.message.cs",
+      "settings": {
+        "foreground": "#999"
+      }
+    },
+    {
+      "name": "Razor text (Sire)",
+      "scope": "text.aspnetcorerazor",
+      "settings": {
+        "foreground": "#eee"
+      }
     }
+
+
+
+    
+
+
+
+    
+
+
+
   ],
   "colors": {
     "foreground": "#cccccc",

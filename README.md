@@ -1,16 +1,50 @@
-# Yoda Theme README
+# Yoda Theme for VS Code
 
-## Working with Markdown
+![Yoda Theme](https://github.com/Sire/Yoda/raw/refs/heads/main/Yoda-Theme-VSCode-Sire.png)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+A dark VS Code theme that balances beauty with usability.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+Carefully crafted to highlight what truly matters using vibrant, saturated colors, while gently dimming less important elements — bringing order to your code, and peace to your eyes. 
 
-## For more information
+Approved by Yoda, it is.
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Installation
+
+- FIXME: Link to Marketplace: [Yoda Theme](https://marketplace.visualstudio.com/items?itemName=Sire.yoda-theme)
+
+## Suported Languages
+
+Great support:
+
+- C#
+- HTML
+- Razor / CSHTML
+
+Working fine:
+
+- C
+- C++
+- CSS
+- Bash
+- Python
+- GO
+- Powershell
+- Perl
+- Markdown
+- JSON
+- Javascript
+- Java
+- Ruby
+- Rust
+- SQL
+- SCSS
+
+- Check the testfiles for other languages. Thanks to https://kate-editor.org/sv/syntax/
+
+## Troubleshooting
+
+- If you don't get full color syntax highlighting, make sure you have [Semantic Highlighting](vscode://settings/editor.semanticHighlighting.enabled) set to configuredByTheme, or enabled.
+- [OmniSharp Semantic Highlitning](vscode://settings/csharp.semanticHighlighting.enabled) should not be needed.
+- If nested braces are different colors depending on depth, you might have enabled [Bracket Pair Colorization](vscode://settings/editor.bracketPairColorization.enabled) in your settings.
 
 **Enjoy!**
