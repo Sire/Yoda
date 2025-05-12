@@ -1,3 +1,7 @@
 node_modules
 *.vsix
 .env
+
+# used for reference
+themes/Monokai Pro-color-theme.json 
+
