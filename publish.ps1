@@ -3,4 +3,5 @@
 
 # npm install -g npm-version
 
-vsce publish minor
+# patch or minor
+vsce publish patch
